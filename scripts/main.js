@@ -8,34 +8,21 @@ basic javascript variable defining - string is Bob
 // myVariable;
 // this is a comment
 
-let iceCream = "chocolate";
-if (iceCream === "chocolate") {
-  alert("Yay, I love chocolate ice cream!");
-} else {
-  alert("Awwww, but chocolate is my favorite…");
-}
-// checks if ice cream is chocolate, if it is say you love chocolate ice cream
 
 
-// define own function
-function multiply(num1, num2) {
-    let result = num1 * num2;
-    return result;
-  }
-
-document.querySelector("html").addEventListener("click", function () {
-  alert("Ouch! Stop poking me!");
-});
+// document.querySelector("html").addEventListener("click", function () 
+  // alert("Ouch! Stop poking me!");
+// });
 // add function when event happens
 
 const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/2ec1ebab8e569af274eaa835f91d0e72.jpg") {
+  if (mySrc === "images/f5d5d9a6f2dd6a44365a770d95e35381.jpg") {
     myImage.setAttribute("src", "images/9eb7a3152c18b9ec987ca250d28eb92e.jpg");
   } else {
-    myImage.setAttribute("src", "images/2ec1ebab8e569af274eaa835f91d0e72.jpg");
+    myImage.setAttribute("src", "images/f5d5d9a6f2dd6a44365a770d95e35381.jpg");
   }
 };
 
@@ -47,7 +34,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Hello, ${myName}`;
+    myHeading.textContent = `Welcome, ${myName}`;
   }
 }
 
@@ -55,7 +42,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Hello, ${storedName}`;
+  myHeading.textContent = `Welcome, ${storedName}`;
 }
 
 myButton.onclick = () => {
