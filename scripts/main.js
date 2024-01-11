@@ -32,10 +32,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "/Users/arukshin/Desktop/Data Science/2nd year/Information Presentation/web-projects/html-test/arukshin.github.io/images/2ec1ebab8e569af274eaa835f91d0e72.jpg") {
-    myImage.setAttribute("src", "/Users/arukshin/Desktop/Data Science/2nd year/Information Presentation/web-projects/html-test/arukshin.github.io/images/9eb7a3152c18b9ec987ca250d28eb92e.jpg");
+  if (mySrc === "images/2ec1ebab8e569af274eaa835f91d0e72.jpg") {
+    myImage.setAttribute("src", "images/9eb7a3152c18b9ec987ca250d28eb92e.jpg");
   } else {
-    myImage.setAttribute("src", "/Users/arukshin/Desktop/Data Science/2nd year/Information Presentation/web-projects/html-test/arukshin.github.io/images/2ec1ebab8e569af274eaa835f91d0e72.jpg");
+    myImage.setAttribute("src", "images/2ec1ebab8e569af274eaa835f91d0e72.jpg");
   }
 };
 
