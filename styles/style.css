@@ -44,6 +44,7 @@ h1 {
 }
 
 li {
+  margin-left: 165px;
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
@@ -82,7 +83,7 @@ button {
 
 h3 {
   font-size: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 h3 {
